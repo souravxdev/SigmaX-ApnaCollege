@@ -22,5 +22,7 @@ public class JavaInput {
 
         long large = scanner.nextLong();
         System.out.println(large);
+
+        scanner.close();
     }
 }

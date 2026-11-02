@@ -12,5 +12,7 @@ public class PracticeQuestion2 {
         int squareArea = side * side;
 
         System.out.println("Area of the square: " + squareArea);
+
+        scanner.close();
     }
 }

@@ -16,5 +16,7 @@ public class PracticeQuestion1 {
         double average = (a + b + c) / 3;
 
         System.out.println("Average of three number: " + average);
+
+        scanner.close();
     }
 }

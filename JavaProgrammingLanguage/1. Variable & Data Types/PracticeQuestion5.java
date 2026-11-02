@@ -5,8 +5,6 @@ int $ = 24;
 
 */
 
-import java.util.Scanner;
-
 public class PracticeQuestion5 {
     public static void main(String args[]) {
         int $ = 24;

@@ -13,8 +13,6 @@ result = (f * b) + (i % c) - (d * s);
 
 */
 
-import java.util.Scanner;
-
 public class PracticeQuestion4 {
     public static void main(String args[]) {
         byte b = 4;

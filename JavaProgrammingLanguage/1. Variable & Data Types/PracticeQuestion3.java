@@ -18,5 +18,7 @@ public class PracticeQuestion3 {
         float finalPrice = totalProductPrice + (totalProductPrice * gst);
 
         System.out.println("Total cost of the items: " + finalPrice);
+
+        scanner.close();
     }
 }

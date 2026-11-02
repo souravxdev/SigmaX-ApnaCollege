@@ -22,16 +22,16 @@ Naming: can start with a letter, `_` or `$`. So `int $ = 24;` is **valid**.
 
 ## 3. Primitive Data Types (8)
 
-| Type | Size | Example |
-|---|---|---|
-| `byte` | 1 B | `byte b = 8;` |
-| `short` | 2 B | `short s = 240;` |
-| `int` | 4 B | `int n = 25;` |
-| `long` | 8 B | `long l = 25L;` |
-| `float` | 4 B | `float f = 3.14f;` |
-| `double` | 8 B | `double d = 10.5;` |
-| `char` | 2 B | `char c = 'a';` |
-| `boolean` | 1 B | `boolean ok = true;` |
+| Type      | Size | Example              |
+| --------- | ---- | -------------------- |
+| `byte`    | 1 B  | `byte b = 8;`        |
+| `short`   | 2 B  | `short s = 240;`     |
+| `int`     | 4 B  | `int n = 25;`        |
+| `long`    | 8 B  | `long l = 25L;`      |
+| `float`   | 4 B  | `float f = 3.14f;`   |
+| `double`  | 8 B  | `double d = 10.5;`   |
+| `char`    | 2 B  | `char c = 'a';`      |
+| `boolean` | 1 B  | `boolean ok = true;` |
 
 Remember: `float` and `long` literals need the `f` / `L` suffix.
 `String` is **not** primitive — it is a class.
@@ -101,6 +101,7 @@ byte bt = (byte)(a + b + c);    // OK
 ```
 
 Practice Q4:
+
 ```java
 double result = (f * b) + (i % c) - (d * s);   // double = highest container
 ```
