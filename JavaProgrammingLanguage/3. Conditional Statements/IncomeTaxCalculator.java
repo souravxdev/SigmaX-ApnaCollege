@@ -2,8 +2,9 @@ import java.util.*;
 
 public class IncomeTaxCalculator {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        int income = sc.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your yearly income: ");
+        int income = scanner.nextInt();
         int tax;
 
         if (income < 500000) {
@@ -15,5 +16,7 @@ public class IncomeTaxCalculator {
         }
 
         System.out.println("Your tax is: " + tax);
+
+        scanner.close();
     }
 }

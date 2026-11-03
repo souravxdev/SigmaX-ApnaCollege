@@ -8,7 +8,7 @@ public class Solution{
 
 */
 
-public class practiceQuestion2 {
+public class PracticeQuestion2 {
     public static void main(String args[]) {
         double temp = 103.5;
         if (temp > 100) {

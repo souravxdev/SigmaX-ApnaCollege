@@ -2,13 +2,15 @@ import java.util.*;
 
 public class CalculatorSwitchCase {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter first number: ");
-        int a = sc.nextInt();
+        int a = scanner.nextInt();
+
         System.out.print("Enter second number: ");
-        int b = sc.nextInt();
+        int b = scanner.nextInt();
+
         System.out.print("Enter operator: ");
-        char operator = sc.next().charAt(0);
+        char operator = scanner.next().charAt(0);
 
         switch (operator) {
             case '+':
@@ -29,6 +31,6 @@ public class CalculatorSwitchCase {
             default:
                 System.out.println("Wrong Operator");
         }
-
+        scanner.close();
     }
 }

@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class PrintLargetsOfThreeNumbers {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        int A = sc.nextInt();
-        int B = sc.nextInt();
-        int C = sc.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int A = scanner.nextInt();
+        int B = scanner.nextInt();
+        int C = scanner.nextInt();
 
         if ((A >= B) && (A >= C)) {
             System.out.println("A is the largest of 3 numbers");
@@ -14,5 +14,7 @@ public class PrintLargetsOfThreeNumbers {
         } else {
             System.out.println("C is the largest of 3 numbers");
         }
+
+        scanner.close();
     }
 }

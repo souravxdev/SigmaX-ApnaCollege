@@ -2,10 +2,11 @@
 // Question 3: Write a Java program to input week number(1-7) and print day of week name using switch case.
 import java.util.*;
 
-public class practiceQuestion3 {
+public class PracticeQuestion3 {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        int dayOfWeek = sc.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter day of the week: ");
+        int dayOfWeek = scanner.nextInt();
 
         switch (dayOfWeek) {
             case 1:
@@ -32,5 +33,6 @@ public class practiceQuestion3 {
             default:
                 System.out.println("Invalid input! Please enter week number between 1-7");
         }
+        scanner.close();
     }
 }

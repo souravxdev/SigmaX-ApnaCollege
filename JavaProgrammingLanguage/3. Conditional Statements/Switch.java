@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class Switch {
     public static void main(String args[]) {
-        int number = 2;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter number: ");
+        int number = scanner.nextInt();
+
         switch (number) {
             case 1:
                 System.out.println("Burger");
@@ -14,5 +19,7 @@ public class Switch {
             default:
                 System.out.println("Wake up from dream");
         }
+
+        scanner.close();
     }
 }
