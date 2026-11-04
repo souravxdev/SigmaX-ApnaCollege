@@ -1,9 +1,12 @@
 import java.util.*;
 
 public class IsPrime {
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter number: ");
+        int number = scanner.nextInt();
+
         boolean isPrime = true;
 
         if (number <= 1) {
@@ -18,10 +21,11 @@ public class IsPrime {
         }
 
         if (isPrime) {
-            System.out.println("Prime");
+            System.out.println(number + " is a Prime Number");
         } else {
-            System.out.println("Not Prime");
+            System.out.println(number + " is Not a Prime Number");
         }
 
+        scanner.close();
     }
 }
