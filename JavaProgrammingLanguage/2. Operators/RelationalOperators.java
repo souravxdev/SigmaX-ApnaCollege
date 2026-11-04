@@ -1,6 +1,6 @@
 public class RelationalOperators {
-    public static void main(String args[]) {
 
+    public static void main(String[] args) {
         // Equal
         // int A = 10;
         // int B = 10;

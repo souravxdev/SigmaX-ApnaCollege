@@ -1,0 +1,13 @@
+{
+  "name": "apna-college",
+  "private": true,
+  "description": "Java programming notes and examples",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "3.9.10",
+    "prettier-plugin-java": "2.11.0"
+  }
+}

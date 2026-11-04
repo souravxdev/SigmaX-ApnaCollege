@@ -1,0 +1,13 @@
+{
+  "plugins": ["prettier-plugin-java"],
+  "printWidth": 100,
+  "tabWidth": 4,
+  "useTabs": false,
+  "endOfLine": "lf",
+  "overrides": [
+    {
+      "files": ["*.md", "*.json", "*.yml", "*.yaml"],
+      "options": { "tabWidth": 2 }
+    }
+  ]
+}

@@ -3,7 +3,8 @@
 import java.util.Scanner;
 
 public class PracticeQuestion3 {
-    public static void main(String args[]) {
+
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Cost of a pencil: ");
@@ -15,7 +16,7 @@ public class PracticeQuestion3 {
 
         float totalProductPrice = pencilPrice + penPrice + eraserPrice;
         float gst = 0.18f;
-        float finalPrice = totalProductPrice + (totalProductPrice * gst);
+        float finalPrice = totalProductPrice + totalProductPrice * gst;
 
         System.out.println("Total cost of the items: " + finalPrice);
 

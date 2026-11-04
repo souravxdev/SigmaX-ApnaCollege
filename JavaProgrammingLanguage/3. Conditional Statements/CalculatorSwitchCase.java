@@ -1,7 +1,8 @@
 import java.util.*;
 
 public class CalculatorSwitchCase {
-    public static void main(String args[]) {
+
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter first number: ");
         int a = scanner.nextInt();
@@ -20,10 +21,10 @@ public class CalculatorSwitchCase {
                 System.out.println("Subtraction: " + (a - b));
                 break;
             case '*':
-                System.out.println("Multiplication: " + (a * b));
+                System.out.println("Multiplication: " + a * b);
                 break;
             case '/':
-                System.out.println("Division: " + (a / b));
+                System.out.println("Division: " + a / b);
                 break;
             case '%':
                 System.out.println("Remainder: " + (a % b));

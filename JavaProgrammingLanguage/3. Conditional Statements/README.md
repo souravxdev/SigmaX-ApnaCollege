@@ -5,11 +5,13 @@
 Runs a block only when the condition is `true`; `else` runs otherwise.
 
 ```java
-int A = 5, B = 10;
+int A = 5,
+  B = 10;
+
 if (A > B) {
-    System.out.println("A is largest");
+  System.out.println("A is largest");
 } else {
-    System.out.println("B is largest");
+  System.out.println("B is largest");
 }
 ```
 
@@ -21,11 +23,11 @@ Checks conditions top to bottom and runs **only the first** one that is `true`.
 
 ```java
 if (age >= 18) {
-    System.out.println("Adult");
+  System.out.println("Adult");
 } else if (age >= 13 && age < 18) {
-    System.out.println("Teenager");
+  System.out.println("Teenager");
 } else {
-    System.out.println("Not adult");
+  System.out.println("Not adult");
 }
 ```
 
@@ -38,8 +40,9 @@ A one-line `if`/`else` that **returns a value**.
 
 ```java
 // variable = (condition) ? valueIfTrue : valueIfFalse;
-String type = (number % 2 == 0) ? "Even" : "Odd";
-String reportCard = (marks >= 33) ? "Pass" : "Fail";
+String type = number % 2 == 0 ? "Even" : "Odd";
+
+String reportCard = marks >= 33 ? "Pass" : "Fail";
 ```
 
 ## 4. `switch`
@@ -48,14 +51,14 @@ Matches one variable against fixed values (`case`). `default` runs when nothing 
 
 ```java
 switch (operator) {
-    case '+':
-        System.out.println(a + b);
-        break;
-    case '-':
-        System.out.println(a - b);
-        break;
-    default:
-        System.out.println("Wrong Operator");
+  case '+':
+    System.out.println(a + b);
+    break;
+  case '-':
+    System.out.println(a - b);
+    break;
+  default:
+    System.out.println("Wrong Operator");
 }
 ```
 
@@ -65,12 +68,12 @@ Reading a `char` with Scanner: `char operator = scanner.next().charAt(0);`
 
 ## 5. Common Patterns
 
-| Problem | Condition |
-|---------|-----------|
-| Even / odd | `number % 2 == 0` |
-| Largest of 3 | `(A >= B) && (A >= C)`, then `B >= C`, else `C` |
+| Problem          | Condition                                                       |
+| ---------------- | --------------------------------------------------------------- |
+| Even / odd       | `number % 2 == 0`                                               |
+| Largest of 3     | `(A >= B) && (A >= C)`, then `B >= C`, else `C`                 |
 | Income tax slabs | `if` / `else if` ranges, `(int)(income * 0.2)` to drop decimals |
-| Leap year | `(year % 4 == 0 && year % 100 != 0) \|\| (year % 400 == 0)` |
+| Leap year        | `(year % 4 == 0 && year % 100 != 0) \|\| (year % 400 == 0)`     |
 
 ## Key Takeaways (from the practice questions)
 

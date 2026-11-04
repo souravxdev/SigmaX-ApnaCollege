@@ -1,5 +1,6 @@
 public class AssignmentOperators {
-    public static void main(String args[]) {
+
+    public static void main(String[] args) {
         int A = 10;
         A += 10;
 

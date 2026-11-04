@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class JavaTypeConversion {
-    public static void main(String args[]) {
+
+    public static void main(String[] args) {
         // Type = Widening = Implicit Conversion
         // int a = 25;
         // long b = a; // Possible / type compatible && destination type > source type
@@ -10,7 +11,7 @@ public class JavaTypeConversion {
 
         long a = 25;
         int b = a; // Not Possible / type compatible but destination type !> source type (Not
-                   // Accepted)
+        // Accepted)
         System.out.println(b);
 
         Scanner scanner = new Scanner(System.in);

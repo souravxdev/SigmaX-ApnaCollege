@@ -1,5 +1,6 @@
 public class IfElse {
-    public static void main(String args[]) {
+
+    public static void main(String[] args) {
         int age = 13;
         if (age >= 18) {
             System.out.println("Adult: Vote, Drive");
@@ -7,9 +8,7 @@ public class IfElse {
 
         if (age >= 13 && age < 18) {
             System.out.println("Teenager");
-        }
-
-        else {
+        } else {
             System.out.println("Not adult");
         }
     }

@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class ProductOfTwoNumbers {
-    public static void main(String args[]) {
+
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first number: ");
         int number_1 = sc.nextInt();

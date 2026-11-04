@@ -19,8 +19,11 @@ Question 2: What will be the output of the following program:
 */
 
 public class PracticeQuestion2 {
-    public static void main(String args[]) {
-        int x = 200, y = 50, z = 100;
+
+    public static void main(String[] args) {
+        int x = 200,
+            y = 50,
+            z = 100;
 
         if (x > y && y > z) {
             System.out.println("Hello");
@@ -30,7 +33,7 @@ public class PracticeQuestion2 {
             System.out.println("Java");
         }
 
-        if ((y + 200) < x && (y + 150) < z) {
+        if (y + 200 < x && y + 150 < z) {
             System.out.println("Hello Java");
         }
     }

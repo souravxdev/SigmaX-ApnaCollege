@@ -1,5 +1,6 @@
 public class IncrementOperator {
-    public static void main(String args[]) {
+
+    public static void main(String[] args) {
         // Pre Increment
         // int a = 10;
         // int b = ++a;

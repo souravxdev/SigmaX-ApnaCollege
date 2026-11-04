@@ -1,6 +1,6 @@
 public class TypePromotion3 {
-    public static void main(String args[]) {
 
+    public static void main(String[] args) {
         int a = 10;
         float b = 20.25f;
         long c = 25;

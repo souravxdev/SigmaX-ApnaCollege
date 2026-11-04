@@ -6,7 +6,8 @@ int $ = 24;
 */
 
 public class PracticeQuestion5 {
-    public static void main(String args[]) {
+
+    public static void main(String[] args) {
         int $ = 24;
         System.out.println($);
     }

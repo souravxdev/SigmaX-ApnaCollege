@@ -12,12 +12,13 @@ Question 3: What will be the output of the following program:
 */
 
 public class PracticeQuestion3 {
-    public static void main(String args[]) {
+
+    public static void main(String[] args) {
         int x, y, z;
         x = y = z = 2;
         x += y;
         y -= z;
-        z /= (x + y);
+        z /= x + y;
         System.out.println(x + " " + y + " " + z);
     }
 }

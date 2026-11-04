@@ -1,5 +1,6 @@
 public class JavaPrimitiveDataType {
-    public static void main(String args[]) {
+
+    public static void main(String[] args) {
         byte b = 8; // 1 byte
         System.out.println(b);
 

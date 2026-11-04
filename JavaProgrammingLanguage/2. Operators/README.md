@@ -13,17 +13,19 @@ A % B   // 0  → modulo gives the remainder (7 % 2 = 1)
 
 ## 2. Increment / Decrement (`++` `--`)
 
-| Form | Meaning |
-|------|---------|
-| `++a` (pre) | increment **first**, then use the value |
+| Form         | Meaning                                 |
+| ------------ | --------------------------------------- |
+| `++a` (pre)  | increment **first**, then use the value |
 | `a++` (post) | use the value **first**, then increment |
 
 ```java
 int a = 10;
-int b = ++a;   // a = 11, b = 11  (pre)
+
+int b = ++a; // a = 11, b = 11  (pre)
 
 int a = 10;
-int b = a++;   // a = 11, b = 10  (post — b got the OLD value)
+
+int b = a++; // a = 11, b = 10  (post — b got the OLD value)
 ```
 
 Same rule for `--a` and `a--`.
@@ -54,9 +56,17 @@ A <= B   // true
 Shorthand: `A += 10` means `A = A + 10`.
 
 ```java
-int A = 10;  A += 10;  // 20
-int C = 32;  C *= 2;   // 64
-int E = 4;   E %= 2;   // 0
+int A = 10;
+
+A += 10; // 20
+
+int C = 32;
+
+C *= 2; // 64
+
+int E = 4;
+
+E %= 2; // 0
 ```
 
 ## Key Takeaways (from the practice questions)
