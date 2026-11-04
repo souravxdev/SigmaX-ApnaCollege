@@ -22,26 +22,26 @@ This repository holds the code, notes and practice questions I write while follo
 
 ## Roadmap
 
-| Phase | Track | Status |
-|:-:|---|:-:|
-| 1 | Data Structures & Algorithms in Java | 🟡 In progress |
-| 2 | Web Development | ⚪ Up next |
+| Phase | Track                                |     Status     |
+| :---: | ------------------------------------ | :------------: |
+|   1   | Data Structures & Algorithms in Java | 🟡 In progress |
+|   2   | Web Development                      |   ⚪ Up next   |
 
 ## DSA in Java
 
-| # | Topic | Notes |
-|:-:|---|:-:|
-| 1 | [Variables & Data Types](JavaProgrammingLanguage/1.%20Variable%20%26%20Data%20Types/) | 📝 |
-| 2 | [Operators](JavaProgrammingLanguage/2.%20Operators/) | 📝 |
-| 3 | [Conditional Statements](JavaProgrammingLanguage/3.%20Conditional%20Statements/) | |
-| 4 | [Loops (Flow Control)](JavaProgrammingLanguage/4.%20Loops%20(Flow%20Control)/) | |
-| 5 | [Patterns (Part 1)](JavaProgrammingLanguage/5.%20Patterns%20(Part%201)/) | |
-| 6 | [Functions & Methods](JavaProgrammingLanguage/6.%20Functions%20%26%20Methods/) | 📝 |
-| 8 | [Arrays (Part 1)](JavaProgrammingLanguage/8.%20Arrays%20(Part%201)/) | 📝 |
-| 10 | [Basic Sorting Algorithms](JavaProgrammingLanguage/10.%20Basic%20Sorting%20Algorithm/) | 📝 |
-| 12 | [Strings](JavaProgrammingLanguage/12.%20Strings/) | 📝 |
-| – | [OOP](JavaProgrammingLanguage/OOP/) | |
-| – | [Practice Sessions](JavaProgrammingLanguage/Practice%20Sessions/) | |
+|  #  | Topic                                                                                  | Notes |
+| :-: | -------------------------------------------------------------------------------------- | :---: |
+|  1  | [Variables & Data Types](JavaProgrammingLanguage/1.%20Variable%20%26%20Data%20Types/)  |  📝   |
+|  2  | [Operators](JavaProgrammingLanguage/2.%20Operators/)                                   |  📝   |
+|  3  | [Conditional Statements](JavaProgrammingLanguage/3.%20Conditional%20Statements/)       |  📝   |
+|  4  | [Loops (Flow Control)](<JavaProgrammingLanguage/4.%20Loops%20(Flow%20Control)/>)       |  📝   |
+|  5  | [Patterns (Part 1)](<JavaProgrammingLanguage/5.%20Patterns%20(Part%201)/>)             |       |
+|  6  | [Functions & Methods](JavaProgrammingLanguage/6.%20Functions%20%26%20Methods/)         |  📝   |
+|  8  | [Arrays (Part 1)](<JavaProgrammingLanguage/8.%20Arrays%20(Part%201)/>)                 |  📝   |
+| 10  | [Basic Sorting Algorithms](JavaProgrammingLanguage/10.%20Basic%20Sorting%20Algorithm/) |  📝   |
+| 12  | [Strings](JavaProgrammingLanguage/12.%20Strings/)                                      |  📝   |
+|  –  | [OOP](JavaProgrammingLanguage/OOP/)                                                    |       |
+|  –  | [Practice Sessions](JavaProgrammingLanguage/Practice%20Sessions/)                      |       |
 
 📝 = folder includes quick-reference notes
 
@@ -71,6 +71,16 @@ Or compile and run in two steps:
 ```bash
 javac SumOfTwoNumbers.java
 java SumOfTwoNumbers
+```
+
+## Code Style
+
+All Java files and notes are formatted with [Prettier](https://prettier.io/) and [prettier-plugin-java](https://github.com/jhipster/prettier-java). You need Node.js installed.
+
+```bash
+npm install            # one-time setup
+npm run format         # format every file
+npm run format:check   # check without changing files
 ```
 
 ## Acknowledgements
