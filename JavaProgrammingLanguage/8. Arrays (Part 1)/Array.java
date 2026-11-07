@@ -1,14 +1,22 @@
 import java.util.Scanner;
 
 public class Array {
-    public static void main(String args[]) {
-        int marks[] = new int[100]; // array creation
+
+    // List of elements of the 'same type' placed is a 'contiguous memory' location
+
+    public static void main(String[] args) {
+        int marks[] = new int[100]; // array creation - dataType arrayName[] = new dataType[size];
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Enter marks of Physics: ");
         marks[0] = scanner.nextInt(); // input taken of an array
+        System.out.print("Enter marks of Chemistry: ");
         marks[1] = scanner.nextInt();
+        System.out.print("Enter marks of Math: ");
         marks[2] = scanner.nextInt();
+
+        scanner.close();
 
         System.out.println("Physics: " + marks[0]); // output of an array
         System.out.println("Chemistry: " + marks[1]);
@@ -22,6 +30,5 @@ public class Array {
         System.out.println("Average: " + average);
 
         System.out.println("Length of marks array: " + marks.length);
-
     }
 }

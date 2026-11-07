@@ -1,5 +1,6 @@
 public class PairsInAnArray {
-    public static void printPairs(int numbers[]) {
+
+    public static void printPairs(int[] numbers) {
         int totalPairs = 0;
         for (int i = 0; i < numbers.length; i++) {
             int current = numbers[i];
@@ -7,13 +8,17 @@ public class PairsInAnArray {
                 System.out.print("(" + current + "," + numbers[j] + ") ");
                 totalPairs++;
             }
-            System.err.println();
+            System.out.println();
         }
         System.out.println("Total pairs: " + totalPairs);
     }
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int numbers[] = { 2, 4, 5, 10 };
         printPairs(numbers);
     }
 }
+
+// Time Complexity: O(n^2) - The outer loop runs n times, and for each iteration
+// of the outer loop, the inner loop runs up to n times, resulting in a
+// quadratic time complexity.
